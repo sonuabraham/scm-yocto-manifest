@@ -3,7 +3,7 @@
 
   <default sync-j="4" revision="honister"/>
 
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.yoctoproject.org/poky" name="yocto"/>
 
   <project remote="yocto"  upstream="honister" name="poky" path="sources/poky"/>
 
