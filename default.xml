@@ -5,7 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
 
-  <project remote="yocto"     revision="f5ac4ee7d51ee46d84d3856e8f59fb9fa2486463" upstream="honister" name="poky" path="sources/poky"/>
+  <project remote="yocto"  upstream="honister" name="poky" path="sources/poky"/>
 
 
 </manifest>
