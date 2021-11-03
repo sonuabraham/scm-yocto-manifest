@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default remote="rfi" revision="default"/>
+
+  <!-- You can have as many remote repositories as you like -->
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="freescale" fetch="git://github.com/Freescale" />
+  
+
+  <!-- List all the repositories you want to fetch -->
+  <!-- "name": git repository's name on hosting server
+       "remote": the remote host from above (if not the default)
+       "revision": commitish to checkout (if not the default)
+       "path": directory where git repository gets cloned/synced -->
+
+  <project name="poky" revision="honister" remote="yocto" />
+  <project name="meta-freescale" revision="honister" remote="yocto" path="poky/meta-freescale" />
+  
+
+</manifest>
+
