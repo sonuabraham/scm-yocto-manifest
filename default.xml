@@ -4,7 +4,10 @@
   <default sync-j="4" revision="honister"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote name="freescale" fetch="git://github.com/Freescale"/>
+
 
   <project remote="yocto"  upstream="honister" name="poky" path="sources/poky"/>
+  <project name="meta-freescale" revision="refs/heads/honister" remote="yocto" path="sources/meta-freescale" />
 
 </manifest>
