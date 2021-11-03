@@ -5,9 +5,15 @@
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote name="freescale" fetch="git://github.com/Freescale"/>
+  <remote fetch="ssh://git@bitbucket.org/rfiteam" name="git-rfi"/>
 
 
   <project remote="yocto"  upstream="honister" name="poky" path="sources/poky"/>
   <project name="meta-freescale" revision="refs/heads/honister" remote="yocto" path="sources/meta-freescale" />
+  <project name="scm-meta-rfi.git" path="sources/meta-rfi" remote="git-rfi"
+    revision="project/TRex-explicit-mode"/>
+  <project name="scm-meta-rfi-dspbr-edge-scm.git"
+    path="sources/meta-rfi-dspbr-edge-scm" remote="git-rfi"
+    revision="project/TRex-explicit-mode"/>
 
 </manifest>
