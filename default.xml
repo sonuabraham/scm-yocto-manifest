@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="honister"/>
+  <default sync-j="4" revision="honister-3.4"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
 
-  <project remote="yocto"  upstream="honister" name="poky" path="sources/poky"/>
+  <project remote="yocto"  upstream="honister-3.4" name="poky" path="sources/poky"/>
 
 
 </manifest>
