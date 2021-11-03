@@ -14,8 +14,8 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="poky" revision="honister" upstream="honister" remote="yocto" />
-  <project name="meta-freescale" revision="honister" remote="yocto" path="poky/meta-freescale" />
+  <project name="poky" revision="honister" upstream="honister" remote="yocto" path="poky" />
+  <project name="meta-freescale" revision="honister" remote="freescale" path="poky/meta-freescale" />
   
 
 </manifest>
