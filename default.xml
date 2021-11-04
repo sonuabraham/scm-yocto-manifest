@@ -10,14 +10,14 @@
 
 
   <project remote="yocto"  upstream="honister" name="poky" path="sources/poky"/>
-  <project name="meta-freescale" revision="refs/heads/honister" remote="yocto" path="sources/poky/meta-freescale" />
-  <project name="scm-meta-rfi.git" path="sources/poky/meta-rfi" remote="git-rfi"
+  <project name="meta-freescale" revision="refs/heads/honister" remote="yocto" path="sources/meta-freescale" />
+  <project name="scm-meta-rfi.git" path="sources/meta-rfi" remote="git-rfi"
     revision="project/TRex-explicit-mode"/>
   <project name="scm-meta-rfi-dspbr-edge-scm.git"
-	  path="sources/poky/meta-rfi-dspbr-edge-scm" remote="git-rfi"
+	  path="sources/meta-rfi-dspbr-edge-scm" remote="git-rfi"
 	  revision="project/TRex-explicit-mode"/>
 
-  <project remote="github" revision="master" name="rfi-bsp-base" path="sources/poky/base">
+  <project remote="github" revision="master" name="rfi-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
