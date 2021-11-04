@@ -15,10 +15,10 @@
     revision="project/TRex-explicit-mode"/>
   <project name="scm-meta-rfi-dspbr-edge-scm.git"
 	  path="sources/poky/meta-rfi-dspbr-edge-scm" remote="git-rfi"
-    revision="project/TRex-explicit-mode"/>
+	  revision="project/TRex-explicit-mode"/>
+
   <project remote="github" revision="master" name="rfi-bsp-base" path="sources/poky/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
-
 </manifest>
