@@ -6,7 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote name="freescale" fetch="git://github.com/Freescale"/>
   <remote fetch="ssh://git@bitbucket.org/rfiteam" name="git-rfi"/>
-  <remote fetch="https://github.com/sonuabraham/"name="github" /> 
+  <remote fetch="https://github.com/sonuabraham/" name="github"/> 
 
 
   <project remote="yocto"  upstream="honister" name="poky" path="sources/poky"/>
